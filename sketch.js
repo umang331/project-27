@@ -44,6 +44,9 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background("pink");
+	
+  textSize(25);
+  text("use up,down,left arrow key to see the what happen",30 ,50);
   Engine.update(engine);
   
   bob1.display();

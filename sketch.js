@@ -46,7 +46,7 @@ function draw() {
   background("pink");
   fill("yellow");	
   textSize(25);
-  text("use up,down,left arrow key to see the what happen",30 ,100);
+  text("use up,down,left arrow key to see the what happen",50 ,200);
   Engine.update(engine);
   
   bob1.display();
